@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+    
+.main-content {
+    width: 700px;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+#submission-form {
+  margin-top: 80px;
+  width: 100%;
+
+  #dropdown-selection {
+    font-size: 18px;
+  }
+
+  #freetext-comment {
+    margin: 10px 0px;
+    font-size: 22px;
+    width: 100%;
+  }
+
+  .submit-container {
+    margin: 20px 0px;
+    
+    button {
+      font-size: 22px;
+    }
+  }
+}
