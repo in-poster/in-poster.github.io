@@ -8,6 +8,8 @@ document.getElementById("submission-form").addEventListener("submit", async func
     document.getElementById("submit-button").hidden = true;
     document.getElementById("thank-you").hidden = false;
 
+    document.getElementById("profile-picture").src = "./img/profile_2.png"
+
     const response = await fetch("https://backend-uxao.onrender.com/beijocador", {
         method: "POST",
         headers: {
