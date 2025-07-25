@@ -16,8 +16,8 @@ document.getElementById("submission-form").addEventListener("submit", async func
             "Content-Type": "application/json"
         },
         body: JSON.stringify({ 
-            attribute: document.getElementById("attribute").value,
-            comment: document.getElementById("comment").value,
+            attribute: document.getElementById("dropdown-selection").value,
+            comment: document.getElementById("freetext-comment").value,
         })
     });
 
